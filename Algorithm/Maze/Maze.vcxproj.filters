@@ -8,4 +8,23 @@
       <UniqueIdentifier>{6988e6b2-f447-4e05-8f32-460b79ab60be}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleHelper.cpp">
+      <Filter>Board</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleHelper.h">
+      <Filter>Board</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
