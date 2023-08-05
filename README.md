@@ -7,7 +7,7 @@
 
 <h3>Chapter 01. Maze</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Maze
-<br><b>History</b> :
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/01.Maze
 
 <br><h3>Chapter 02. Linear Data</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Linear%20Data
