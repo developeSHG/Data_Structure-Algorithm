@@ -1,6 +1,7 @@
 #include "pch.h"
 #include "Player.h"
 #include "Board.h"
+#include <stack>
 
 void Player::Init(Board* board)
 {
@@ -44,30 +45,38 @@ void Player::Init(Board* board)
 
 			_path.push_back(pos);
 		}
-		// 3. 없으면 왼쪽으로 회전.
 		else
 		{
 			// 왼쪽 방향으로 90도 회전.
 			_dir = (_dir + 1) % DIR_COUNT;
-			/*
-			switch (_dir)
-			{
-			case DIR_UP:
-				_dir = DIR_LEFT;
-				break;
-			case DIR_LEFT:
-				_dir = DIR_DOWN;
-				break;
-			case DIR_DOWN:
-				_dir = DIR_RIGHT;
-				break;
-			case DIR_RIGHT:
-				_dir = DIR_UP;
-				break;
-			}
-			*/
 		}
 	}
+
+	stack<Pos> s;
+
+	for (int i = 0; i < _path.size() - 1; i++) // 목적지는 제외하기 때문에 size에서 -1
+	{ 
+		// 이전에 걸어온 길이 있었다하면 걸어온 길의 최상위 원소와, 다음으로 가야할 길이 일치하면 되돌아가고 있다는 것이기 때문에 pop
+		if (s.empty() == false && s.top() == _path[i + 1]) 
+			s.pop();
+		else
+			s.push(_path[i]);
+	}
+
+	// 목적지 도착
+	if (_path.empty() == false)
+		s.push(_path.back());
+
+	vector<Pos> path;
+	while (s.empty() == false)
+	{
+		path.push_back(s.top());
+		s.pop();
+	}
+
+	std::reverse(path.begin(), path.end()); // stack은 선입선출이라 목적지부터 push 되었기 때문에, 거꾸로 reverse해줌.
+
+	_path = path;
 }
 
 void Player::Update(uint64 deltaTick)
