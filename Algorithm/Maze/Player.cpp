@@ -197,14 +197,14 @@ void Player::AStar()
 	// F = G + H
 	// F = 최종 점수 (작을 수록 좋음, 경로에 따라 달라짐)
 	// G = 시작점에서 해당 좌표까지 이동하는데 드는 비용 (작을 수록 좋음, 경로에 따라 달라짐)
-	// H(휴리스틱) = 목적지에서 얼마나 가까운지 (작을 수록 좋음, 고정)
+	// H = 목적지에서 얼마나 가까운지 (작을 수록 좋음, 고정)
 
 	Pos start = _pos;
 	Pos dest = _board->GetExitPos();
 
 	enum
 	{
-		DIR_COUNT = 8
+		DIR_COUNT = 4
 	};
 
 	Pos front[] =
@@ -267,9 +267,9 @@ void Player::AStar()
 		PQNode node = pq.top();
 		pq.pop();
 
-		// 동일한 좌표를 여러 경로로 찾아서
+		// 동일한 좌표를 여러 경로로 찾아서\
 		// 더 빠른 경로로 인해서 이미 방문(closed)된 경우 스킵
-		// [선택. 둘 중에 하나만 돌려도 가능]
+		// [선택]
 		if (closed[node.pos.y][node.pos.x])
 			continue;
 		if (best[node.pos.y][node.pos.x] < node.f)
