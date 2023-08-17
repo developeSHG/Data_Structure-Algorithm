@@ -11,32 +11,32 @@
 
 <br><h3>Chapter 02. Linear Data</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Linear%20Data
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/02.Linear_Data
 
 <br><h3>Chapter 03. Graph</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Graph
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/03.Graph
 
 <br><h3>Chapter 04. A* & Heap</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/A*%20%26%20Heap
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/04.Astar%26Heap
 
 <br><h3>Chapter 05. Search Tree</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Search%20Tree
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/05.Search_Tree
 
-<br><h3>Chapter 06. Sort</h3>
+<br><h3>Chapter 06. Sorting</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Sort
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/06.Sorting
 
 <br><h3>Chapter 07. Hash Table</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/Hash%20Table
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/07.Hash_Table
 
 <br><h3>Chapter 08. MST(Minimum Spanning Tree)</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/MST%28Minimum%20Spanning%20Tree%29
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/08.MST(Minimum_Spanning_Tree)
 
 <br><h3>Chapter 09. DP(Dynamic Programming)</h3>
 <b>Blog</b> : https://song-ift.tistory.com/category/%5BC%2B%2B%5D%20Data%20Structure%20%26%20Algorithm/DP%28Dynamic%20Programming%29
-<br><b>History</b> : 
+<br><b>History</b> : https://github.com/developeSHG/Data_Structure-Algorithm/commits/09.DP(Dynamic_Programming)
